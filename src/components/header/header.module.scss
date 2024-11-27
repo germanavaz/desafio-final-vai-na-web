@@ -74,5 +74,34 @@
       border: none;
       cursor: pointer;
     }
+
   }
   
+
+    @media screen and (max-width: 600px) {
+
+      .barraDeBusca {
+        display: none;
+      }
+
+      .header {
+        flex-direction: column;
+      }
+
+      .logoHeader {
+        width: 70vw;
+        align-items: center;
+          h1 {
+            font-size: 20px;
+          }
+      }
+
+      .navHeader {
+        width: 90vw;
+
+        .link {
+          font-size: 18px;
+        }
+        
+      }
+    }
