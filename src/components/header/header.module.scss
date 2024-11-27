@@ -1,7 +1,12 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 .header {
     background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 20vh;
   }
@@ -10,15 +15,17 @@
     display: flex;
     width: 20%;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
   
     img {
       width: 20%;
     }
   
     h1 {
-      font-size: 30px;
+      font-size: 28px;
+      font-family: "Inter", sans-serif;
       color: #fff;
+      font-weight: 600;
     }
   }
   
@@ -28,13 +35,15 @@
     ul {
       display: flex;
       justify-content: space-around;
+      align-items: flex-end;
       list-style: none;
     }
-  
+    
     .link {
       color: #fff;
       font-size: 20px;
       text-decoration: none;
+      
     }
   }
   
@@ -51,7 +60,7 @@
     input {
       background-color: transparent;
       border: none;
-      width: 60%;
+      width: 75%;
       height: 5vh;
   
       &::placeholder {
