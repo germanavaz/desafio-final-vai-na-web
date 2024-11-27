@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+//-------------------- Banner ------------------//
+
 .bannerPrincipal {
     min-height: 554px;
     background-image: url(../../assets/banner.png);
@@ -23,3 +25,21 @@
         
         }
 }
+
+@media screen and (max-width: 600px) {
+    .bannerPrincipal {
+        background-position-x: 35%;
+        justify-content: center;
+        background-size: cover;
+        padding: 0;
+        max-height: 50vh;
+        
+        h2 {
+            font-size: 1.8rem;
+            text-align: center;
+            width: 80%;
+        }
+    }
+}
+
+
