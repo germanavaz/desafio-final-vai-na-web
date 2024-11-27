@@ -42,4 +42,61 @@
     }
 }
 
+//-------------------- POR QUE DEVO DOAR ------------------//
 
+.porque {
+    padding: 5rem;
+    font-family: "Inter", sans-serif;
+
+        h2 {
+           font-weight: 500;
+           font-size: 2.5rem; 
+           color: #005695;
+        }
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    div {
+        width: 300px;
+        border-radius: 10px;
+        background-color: #0157944D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+
+        img {
+            width: 100px;
+            padding-bottom: 2rem;
+        }
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .porque {
+        padding: 1rem;
+        text-align: center;
+
+        h2 {
+            font-size: 1.8rem;
+         }
+    }
+    .cards {
+        flex-direction: column;
+        gap: 1rem;
+
+        div {
+            width: 250px;
+            padding: 1rem;
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+}
