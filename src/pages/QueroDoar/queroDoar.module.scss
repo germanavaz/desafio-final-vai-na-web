@@ -19,7 +19,7 @@
         flex-direction: column;
         border: 3px solid #005695;
         border-radius: 16px;
-        width: 442px;
+        width: 400px;
         height: 596px;
         margin-top: 20px;
 
@@ -31,12 +31,11 @@
             height: 53px;
 
             img {
-                width: 62px;
-                height: 53px;
+                width: 57px;
             }
 
-            legend {
-                font-family: 'Inter', sans-serif;
+            p {
+                font-family: "Inter", sans-serif;
                 font-weight: 500;
                 font-size: 22px;
                 color: #005695;
@@ -53,19 +52,23 @@
 
             input {
                 border: 2px solid #005695;
-                color: black;
                 border-radius: 25px;
                 text-indent: 20px;
                 width: 325px;
                 height: 53px;
                 font-size: 16px;
+                color: #000;
+
+                &::placeholder {
+                    color: #000;
+                }
             }
 
             input[type='submit'] {
                 background: #005695;
                 color: white;
                 font-size: 18px;
-                border-radius: 16px;
+                border-radius: 20px;
                 width: 150px;
                 height: 53px;
                 text-align: center;
@@ -73,10 +76,7 @@
                 margin-top: 20px;
                 cursor: pointer;
 
-                &:hover {
-                    background: rgb(0, 86, 149, 0.8);
-                    border: rgb(0, 86, 149, 0.9);
-                }
+            
             }
         }
     }

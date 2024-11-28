@@ -8,9 +8,9 @@ export default function QueroDoar() {
             <section className={S.formulario}>
                 <div>
                     <img src={iconeLivro} alt="" />
-                    <legend>
+                    <p>
                         Informações do Livro
-                    </legend>
+                    </p>
                 </div>
 
                 <form action="">
