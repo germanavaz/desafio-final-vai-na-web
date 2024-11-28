@@ -62,12 +62,18 @@
       border: none;
       width: 75%;
       height: 5vh;
-  
+      border: none;
+      color: white;
+      outline: none;
+      font-size: 20px;
+
       &::placeholder {
         color: #fff;
         font-size: 20px;
       }
     }
+
+    
   
     button {
       background-color: transparent;
@@ -76,7 +82,7 @@
     }
 
   }
-  
+ 
 
     @media screen and (max-width: 600px) {
 
@@ -101,6 +107,7 @@
 
         .link {
           font-size: 18px;
+
         }
         
       }
