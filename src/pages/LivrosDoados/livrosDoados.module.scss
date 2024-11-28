@@ -1,3 +1,40 @@
 .secao1 {
-    background-color: red;
+    padding: 1rem 3rem;
+    height: 70vh;
+    h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}
+
+.livro {
+    border: 3px solid #005695;
+    border-radius: 15px;
+    width: 245px;
+    height: 264px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+        div {
+            text-align: center;
+        }
+}
+
+@media screen and (max-width: 600px) {
+    .secao1 {
+        h2 {
+            padding-bottom: 1rem;
+        }
+    }
+
+    .livro {
+        width: 250px;
+    }
 }
