@@ -7,7 +7,7 @@ export default function QueroDoar() {
             <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
             <section className={S.formulario}>
                 <div>
-                    <img src={iconeLivro} alt="" />
+                    <img src={iconeLivro} alt="Ícone livro decorativo" />
                     <p>
                         Informações do Livro
                     </p>
