@@ -15,7 +15,7 @@ export default function Header() {
         <section className={s.logoHeader}>
           <img
             src={logoLivro}
-            alt="Imagem de ilustração de livvro aberto com capa azul"
+            alt="Imagem de ilustração de livro aberto com capa azul"
           />
           <h1>Livros Vai na Web</h1>
         </section>
