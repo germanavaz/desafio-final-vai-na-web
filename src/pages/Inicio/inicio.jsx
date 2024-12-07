@@ -15,19 +15,19 @@ export default function Inicio() {
         <h2>Por que devo doar?</h2>
           <section className={S.cards}>
             <div>
-              <img src={Icon1} alt="" />
+              <img src={Icon1} alt="Ícone decorativo" />
               <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
             </div>
             <div>
-              <img src={Icon2} alt="" />
+              <img src={Icon2} alt="Ícone decorativo" />
               <p> Estimula o hábito da leitura e o aprendizado contínuo.</p>
             </div>
             <div>
-              <img src={Icon3} alt="" />
+              <img src={Icon3} alt="Ícone decorativo" />
               <p> Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</p>
             </div>
             <div>
-              <img src={Icon4} alt="" />
+              <img src={Icon4} alt="Ícone decorativo" />
               <p> Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
             </div>
           </section>
