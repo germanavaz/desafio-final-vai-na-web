@@ -6,7 +6,7 @@ export default function LivrosDoados() {
       <section className={S.secao1}>
         <h2>Livros Doados</h2>
         <div className={S.livro}>
-          <img src={livro} alt="" />
+          <img src={livro} alt="Imagem livro O protagonista" />
           <div>
           <p>O protagonista</p>
           <p>Susanne Andrade</p>
