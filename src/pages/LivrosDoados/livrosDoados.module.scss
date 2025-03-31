@@ -1,40 +1,56 @@
-.secao1 {
-    padding: 1rem 3rem;
+.boxDoados{
     height: 70vh;
-    h2 {
-        font-family: "Inter", sans-serif;
-        font-weight: 700;
-        font-size: 2rem;
-        text-align: center;
-    }
-
-}
-
-.livro {
-    border: 3px solid #005695;
-    border-radius: 15px;
-    width: 245px;
-    height: 264px;
     display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
     flex-direction: column;
-    gap: 15px;
-
-        div {
-            text-align: center;
-        }
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-@media screen and (max-width: 600px) {
-    .secao1 {
-        h2 {
-            padding-bottom: 1rem;
-        }
+.boxBooks{
+   width: 85vw;
+   height: 60vh;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   article{
+    border: solid 2px #005695;
+    width: 15vw;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    img {
+        width: 30%;
+    }
+   }
+}
+
+@media(max-width: 1000px){
+    .boxDoados{
+        justify-content: space-around;
+        
     }
 
-    .livro {
-        width: 250px;
+    .boxBooks{
+        
+        article{
+            width: 200px;
+            height: 230px;
+        }
+    }
+}
+
+@media(max-width: 520px){
+    .boxBooks{
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+    }
+
+    .boxDoados{
+        height: auto;
+        padding-bottom: 20px;
     }
 }
