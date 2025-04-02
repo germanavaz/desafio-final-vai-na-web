@@ -30,10 +30,11 @@ export default function LivrosDoados() {
                     <p>Susanne Andrade</p>
                     <p>Ficção</p>
                 </article>
+         
                 
           {livros.map((item)=>(
             <article key={item.id}>
-              <img src={item.imagem_url} alt="" />
+              <img src={item.imagem_url} alt=" {`Imagem do livro ${item.titulo}`}" />
               <h3>{item.titulo}</h3>
               <p>{item.categoria}</p>
               <p>{item.autor}</p>
